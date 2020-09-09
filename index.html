@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      /* Format text headings
+      ----------------*/
+      h1 {
+        font-size: 90px;
+        line-height: 1;
+      }
+
+      h2 {
+        font-size: 45px;
+      }
+
+      h1 h2#heading {
+        font-family: 'Caveat';
+        font-weight: 400;
+        margin: 0;
+        padding-bottom: 20px;
+        text-decoration: underline;
+      }
+
+      /* Button
+      ----------------*/
+      button {
+        width: 150px;
+        height: 50px;
+        border-radius: 2px solid #3333ff;
+        border-radius: 10px;
+        background-color: #e6e6ff;
+        display: center;
+        text-decoration: none;
+      }
+
+      button:hover {
+        background-color: #8080ff;
+        color: white;
+        text-decoration: underline;
+      }
+
+      /* Image formatting
+      ----------------*/
+      img#homeimg {
+        border-radius: 50%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: center;
+      }
+
+    </style>
+  </head>
+  <body>
+   <main>
+     <!-- ***************  Navigation bar  **************** -->
+         <header>
+           <div>
+             <a href = "index.html"><img src = "img/Logo.png" class = "logo"></a>
+             <nav>
+               <ul style="margin-right: 100px;">
+                 <li><a href = "index.html">Home</a></li>
+                 <li><a href = "about_me.html">About Me</a></li>
+                 <li><a href = "home_town.html">Home Town</a></li>
+                 <li><a href = "activity.html">Activity</a></li>
+               </ul>
+             </nav>
+           </div>
+         </header>
+
+    <!-- ***************  Home intro  **************** -->
+    <div class = "content-wrap" id = "navgap">
+     <h1 align = "center">Aldwin Arambulo</h1>
+     <h2 align = "center">Student at UTS: Insearch</h2>
+     <div>
+      <img class = "center" id = "homeimg" src = "./img/IMG_9565.jpeg">
+      <p align = "center"></li>Email: <a href="mailto:3397709@student.uts.edu.au">3397709@student.uts.edu.au</a></p>
+     </div>
+      <p align = "justify">Hi! I’m Aldwin. I am a student in UTS: Insearch in Sydney. I am completing a diploma course which is a pathway for me to get into the second year Computer Science bachelor degree in UTS.
+      I’m currently undertaking a Diploma in Information Technology. I am interested in programming, artificial intelligence and machine learning. I am always curious about new and upcoming
+      technologies and enjoy learning and improving my IT skills.</p>
+      <button class = "center" onclick="location.href='about_me.html'" type="button">Learn more about me</button>
+   </div>
+  </main>
+ </body>
+</html>
